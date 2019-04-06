@@ -1,5 +1,5 @@
 # Reversy
-# Main file is Reversy.html
+# Main file is Reversy.html - all JS code is in app.js
 
 Summary:
 Reversy is a board game, rules may be found here: http://www.flyordie.com/games/help/reversi/en/games_rules_reversi.html
