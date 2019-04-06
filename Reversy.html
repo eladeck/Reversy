@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="style.css">
+		<link rel="icon"  type="image/png" href="favicon.png">
+        
+        <title>Reversy \\ Shay & Elad</title>
+    </head>
+	
+	
+	
+
+    <body>
+			<span class="mySpan">
+				<input type='checkbox' id='checkBoxPotentialGain' checked='true' > potential gain 
+			</span>
+			
+			<span class="mySpan1">
+				 <div id='potentialGain'  style='display:none'></div> 
+			</span>
+			
+			
+					
+			<div id="myModal" class="modal">
+				<div class="modal-content">
+					<div class="modal-header">
+						<span class="close">&times;</span>
+						<h2 id='modalText'>NOT THERE</h2>
+					</div>
+				</div>
+			</div>
+
+   
+        <div class="wrapper clearfix">
+            <div class="player-0-panel active">
+                <div class="player-name" id="name-0"><div class="X"></div></div>
+                <div class="player-score" id="playerOneScore">0</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Data</div>
+                  <!--  <div class="player-current-score" id="playerOneData">0</div> -->
+					<div id="playerOneTwoDisc"></div>
+					<div id="PlayerOneAvgMoveTime"></div>
+					<div id="PlayerOneAllGamesAvgMoveTime"></div>
+					
+                </div>
+            </div>
+            
+            <div class="player-1-panel">
+                <div class="player-name" id="name-1"><div class="O"></div></div>
+                <div class="player-score" id="playerTwoScore">0</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Data</div>
+                  <!--   <div class="player-current-score" id="playerTwoData">0</div> -->
+					<div id="playerTwoTwoDisc"></div>
+					<div id="PlayerTwoAvgMoveTime"></div>
+					<div id="PlayerTwoAllGamesAvgMoveTime"></div>
+                </div>
+            </div>
+			
+			<div id="inputSize"></div>
+			<!-- <div id="timeLabel"></div> -->
+			<div id="activePlayer"></div>
+			<div id="playerOneScore"></div>
+			<div id="playerTwoScore"></div>
+			
+			
+			
+	
+			
+			
+			
+			
+			         			
+			
+            
+            <button id='buttonStart' class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
+            <button id='buttonQuit' class="btn-roll onlyInGame"><i class="ion-ios-download-outline"></i>Quit</button>
+            <button class="btn-hold"><i id='timeLabel' class="ion-ios-time">time</i></button>
+            <button class="totalTurns"><i id='totalTurnsAmount' class="totalTurns"></i></button>
+			
+
+			
+	
+			
+			<!-- the table-->
+			<table id="table"><tbody></tbody>
+			
+			
+				
+			</table>
+            
+
+			
+    
+            
+        </div>
+        
+        <script src="app.js"></script>
+    </body>
+</html>
