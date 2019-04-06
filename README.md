@@ -9,10 +9,10 @@ Architecture:
 We followed the MVC pattern.
 hence, we have 3 modules:
 1. model (named logic in our code)
-displaying the game to the user.
+percieve the entire logic of the game, regardless to what UI the game will be renderd on.
 
 2. view (named UI in our code)
-percieve the entire logic of the game, regardless to what UI the game will be renderd on.
+displaying the game to the user.
 
 3. controler
 the controloer model is in charge of connecting the UI to the model.
